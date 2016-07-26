@@ -1,0 +1,11 @@
+.dropdown-menu > li > a
+{
+  white-space: pre-wrap;
+  
+  
+}
+
+.dropdown-menu > li > a > i
+{
+ color: red;
+}

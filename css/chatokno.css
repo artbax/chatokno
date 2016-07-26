@@ -1,0 +1,210 @@
+body 
+{
+  height: 100%;
+  margin: 0 auto;
+  padding: 0;
+  background-color: #F8F8FF;
+}
+.header_row
+{
+  height: auto;/*80px;*/
+  /*background-color: #FFFFFF;*/
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;  
+}
+.what_room
+{
+  color: #336680;
+}
+.private_area
+{
+  height: auto;
+}
+.column_left
+{
+  height: auto;/*500px;*/
+  margin-top: 2px;
+  /*background-color: #FFFFFF;*/
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+}
+.user_photo
+{
+  height: 78px;
+  width: 78px;
+  border: 1px solid #e3e3e3;
+}
+.column_right
+{
+  height: 500px;
+  margin-top: 2px;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  overflow: auto;
+}
+.user_online
+{
+  height: 40px;
+  margin-top: 2px;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+}
+
+.user_online_avatar
+{
+  height: 34px;
+  width: 34px;
+  margin: 1px 1px 1px 1px;
+  padding: 2px 2px 2px 2px;
+  border: 1px solid #e3e3e3;
+  float: left;  
+}
+.main_row
+{
+  height: 500px;
+  /*background-color: #E9F4FF;*/
+  /*border: 1px solid #1F3D4C;*/
+}
+#chat_room
+{
+  height: 450px;
+  /*background-color: #ffffff;*/
+  overflow: auto;
+  
+}
+#text_color
+{
+ background-color: #000000;
+}
+
+.text_bold
+{
+  width: 25px;
+  height: 48px;
+  
+}
+.text_italic
+{
+  width: 25px;
+  height: 48px;
+  
+} 
+.text_underline
+{
+  width: 25px;
+  height: 48px;
+  
+}
+.center
+{
+ padding-top: 15px;
+}
+.post
+{
+  border: 1px solid #31b0d5;
+  border-radius: 6px;
+  background-color: #FFFFFF;
+  padding: 2px 2px 2px 2px;
+  margin-bottom: 2px;
+ /* font-family: Arial Narrow; */
+  font-size: 12px;
+  
+}
+
+
+.btn_priv
+{
+  margin-top: 3px;
+  margin-left: 3px;
+}
+
+.sel_item
+{
+ background-color: #e3e3e3;
+}
+
+.submit_area
+{
+  height: 50px;
+  /*background-color: #FFFFFF;*/
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+}
+#content
+{
+  width: 80%;
+  height: 45px;
+  /*font-size: 10px;*/
+  float: left;
+  border: 2px solid #e3e3e3;
+  
+}
+#submit_button
+{
+  width: 20%;
+  height: 45px;
+  
+}
+.foot_row
+{
+  height: 50px;
+  margin-top: 2px;
+  /*background-color: #FFFFFF;*/
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+}
+
+/*picker, emoticons*/
+
+
+#list_emoticon {
+	width:235px;
+	height:auto;
+	display:none;
+	z-index:10000;
+	padding:5px;
+	
+}
+#list_emoticon img {
+	float:left;
+	display:block;
+	margin:4px;
+	height:25px;
+	width:auto;
+}
+#smile_content {
+	width:235px;
+	height:auto;
+}
+#picker_box {
+	width:130px;
+	height:auto;
+	padding:2px;
+	display:none;
+	z-index:10000;
+}
+
+#link_box {
+	width:230px;
+	height:auto;
+	padding:2px;
+	display:none;
+	z-index:10000;
+}
+
+
+.picker{
+	height:10px;
+	width:17px;
+	margin:0 auto;
+	float:left;
+}
+
+.pick_color {
+	width:18px;
+	height:18px;
+	float:left;
+	margin:3px;
+	background-size:100% 100%;
+}
+

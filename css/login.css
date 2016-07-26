@@ -1,0 +1,32 @@
+body
+{
+  background-color: #F8F8FF;
+}
+form input:hover {
+    background-color: #F8F8FF;
+}
+form input:focus {
+    border-color: #DB7400;
+}
+.error input {
+    border-color: #040726;
+}
+.error-data {
+    color: #040726;
+    font-size: 11px;
+    left: 30%;
+}
+#nick_error
+{
+    color: #040726;
+    font-size: 11px;
+    left: 30%;
+} 
+#email_error
+{
+    color: #040726;
+    font-size: 11px;
+    left: 30%;
+}
+
+
